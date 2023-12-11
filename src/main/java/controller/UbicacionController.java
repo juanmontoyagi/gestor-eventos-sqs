@@ -11,7 +11,7 @@ import service.UbicacionSQSService;
 
 @AllArgsConstructor
 @RestController
-@RequestMapping("/ubicaciones-sqs")
+@RequestMapping("/ubicacionessqs")
 public class UbicacionController {
 
     UbicacionSQSService ubicacionSQSService;

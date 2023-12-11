@@ -17,7 +17,7 @@ public class UbicacionSQSService {
     private final AmazonSQS sqsClient;
 
     private String getQueueUrl() {
-        return sqsClient.getQueueUrl("ubicaciones-sqs").getQueueUrl();
+        return sqsClient.getQueueUrl("ubicacionessqs").getQueueUrl();
     }
 
     public String publishStandardQueueMessage(Integer delaySeconds, Ubicacion ubicacion) {
